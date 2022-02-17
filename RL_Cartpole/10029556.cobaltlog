@@ -1,0 +1,25 @@
+Jobid: 10029556
+qsub -A NuQMC -q full-node -t 12:00:00 -n 1 -I
+Fri Aug 20 22:10:10 2021 +0000 (UTC) submitted with cwd set to: /gpfs/mira-home/kraghavan/Projects/RL/RL_Cartpole
+jobid 10029556 submitted from terminal /dev/pts/16
+Fri Aug 20 22:10:25 2021 +0000 (UTC) 
+Fri Aug 20 22:10:25 2021 +0000 (UTC) Command: '/usr/bin/ssh' 'thetagpu12' '/usr/bin/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.10029556' '--jobid' '10029556' '--cwd' '/gpfs/mira-home/kraghavan/Projects/RL/RL_Cartpole' '--env' 'COBALT_JOBID=10029556' '/bin/sleep' '43200'
+Fri Aug 20 22:10:25 2021 +0000 (UTC) 
+Fri Aug 20 22:10:25 2021 +0000 (UTC) Environment:
+Fri Aug 20 22:10:25 2021 +0000 (UTC) SHELL=/bin/zsh
+Fri Aug 20 22:10:25 2021 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpYOtwOn
+Fri Aug 20 22:10:25 2021 +0000 (UTC) COBALT_PARTNAME=thetagpu12
+Fri Aug 20 22:10:25 2021 +0000 (UTC) COBALT_JOBID=10029556
+Fri Aug 20 22:10:25 2021 +0000 (UTC) COBALT_STARTTIME=1629497415
+Fri Aug 20 22:10:25 2021 +0000 (UTC) LOGNAME=kraghavan
+Fri Aug 20 22:10:25 2021 +0000 (UTC) USER=kraghavan
+Fri Aug 20 22:10:25 2021 +0000 (UTC) COBALT_ENDTIME=1629540615
+Fri Aug 20 22:10:25 2021 +0000 (UTC) COBALT_PARTSIZE=1
+Fri Aug 20 22:10:25 2021 +0000 (UTC) HOME=/home/kraghavan
+Fri Aug 20 22:10:25 2021 +0000 (UTC) COBALT_JOBSIZE=1
+Fri Aug 20 22:10:25 2021 +0000 (UTC) 
+Fri Aug 20 22:10:25 2021 +0000 (UTC) Info: stdin received from /dev/null
+Fri Aug 20 22:10:25 2021 +0000 (UTC) Info: stdout sent to /gpfs/mira-home/kraghavan/Projects/RL/RL_Cartpole/10029556.output
+Fri Aug 20 22:10:25 2021 +0000 (UTC) Info: stderr sent to /gpfs/mira-home/kraghavan/Projects/RL/RL_Cartpole/10029556.error
+Fri Aug 20 22:10:25 2021 +0000 (UTC) 
+Fri Aug 20 23:19:31 2021 +0000 (UTC) Info: user delete requested with signal SIGTERM by user kraghavan

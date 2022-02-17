@@ -1,0 +1,25 @@
+Jobid: 10029555
+qsub -A NuQMC -q full-node -t 12:00:00 -n 1 run_script_cartpolke_all.sh
+Fri Aug 20 22:01:44 2021 +0000 (UTC) submitted with cwd set to: /gpfs/mira-home/kraghavan/Projects/RL/RL_Cartpole
+jobid 10029555 submitted from terminal /dev/pts/16
+Fri Aug 20 22:02:02 2021 +0000 (UTC) 
+Fri Aug 20 22:02:02 2021 +0000 (UTC) Command: '/usr/bin/ssh' 'thetagpu13' '/usr/bin/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.10029555' '--jobid' '10029555' '--cwd' '/gpfs/mira-home/kraghavan/Projects/RL/RL_Cartpole' '--env' 'COBALT_JOBID=10029555' '/gpfs/mira-home/kraghavan/Projects/RL/RL_Cartpole/run_script_cartpolke_all.sh'
+Fri Aug 20 22:02:02 2021 +0000 (UTC) 
+Fri Aug 20 22:02:02 2021 +0000 (UTC) Environment:
+Fri Aug 20 22:02:02 2021 +0000 (UTC) SHELL=/bin/zsh
+Fri Aug 20 22:02:02 2021 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpm6XpT4
+Fri Aug 20 22:02:02 2021 +0000 (UTC) COBALT_PARTNAME=thetagpu13
+Fri Aug 20 22:02:02 2021 +0000 (UTC) COBALT_JOBID=10029555
+Fri Aug 20 22:02:02 2021 +0000 (UTC) COBALT_STARTTIME=1629496912
+Fri Aug 20 22:02:02 2021 +0000 (UTC) LOGNAME=kraghavan
+Fri Aug 20 22:02:02 2021 +0000 (UTC) USER=kraghavan
+Fri Aug 20 22:02:02 2021 +0000 (UTC) COBALT_ENDTIME=1629540112
+Fri Aug 20 22:02:02 2021 +0000 (UTC) COBALT_PARTSIZE=1
+Fri Aug 20 22:02:02 2021 +0000 (UTC) HOME=/home/kraghavan
+Fri Aug 20 22:02:02 2021 +0000 (UTC) COBALT_JOBSIZE=1
+Fri Aug 20 22:02:02 2021 +0000 (UTC) 
+Fri Aug 20 22:02:02 2021 +0000 (UTC) Info: stdin received from /dev/null
+Fri Aug 20 22:02:02 2021 +0000 (UTC) Info: stdout sent to /gpfs/mira-home/kraghavan/Projects/RL/RL_Cartpole/10029555.output
+Fri Aug 20 22:02:02 2021 +0000 (UTC) Info: stderr sent to /gpfs/mira-home/kraghavan/Projects/RL/RL_Cartpole/10029555.error
+Fri Aug 20 22:02:02 2021 +0000 (UTC) 
+Fri Aug 20 22:52:13 2021 +0000 (UTC) Info: task completed normally with an exit code of 0; initiating job cleanup and removal
